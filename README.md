@@ -1,4 +1,5 @@
 # DiscordBotCore
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A Discord Bot made with help of the YouTube tutorial by @petrspelos
 
