@@ -32,7 +32,6 @@ namespace DiscordBotCore
 
         public static T Resolve<T>()
         {
-            //return (T)Container.Resolve(typeof(T), string.Empty, new CompositeResolverOverride());
             return Container.Resolve<T>();
         }
     }
