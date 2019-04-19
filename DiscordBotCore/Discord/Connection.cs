@@ -7,7 +7,7 @@ namespace DiscordBotCore.Discord
     public class Connection
     {
         private DiscordSocketClient _client;
-        private DiscordLogger _logger;
+        private readonly DiscordLogger _logger;
 
         public Connection(DiscordLogger logger)
         {
