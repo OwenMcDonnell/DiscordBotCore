@@ -8,7 +8,7 @@ namespace DiscordBotCore
 {
     internal static class Program
     {
-        private static async Task Main(string[] args)
+        static async Task Main()
         {
             Unity.RegisterTypes();
             Console.WriteLine("I think we can put our differences behind us. For science. You monster.");
