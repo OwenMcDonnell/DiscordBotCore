@@ -1,24 +1,24 @@
 ﻿using DiscordBotCore.Discord;
 using DiscordBotCore.Discord.Entities;
+using DiscordBotCore.Storage;
 using System;
+using System.Threading.Tasks;
 
 namespace DiscordBotCore
 {
     internal static class Program
     {
-        private static void Main(string[] args)
+        private static async Task Main(string[] args)
         {
             Unity.RegisterTypes();
             Console.WriteLine("I think we can put our differences behind us. For science. You monster.");
 
-            var discordBotConfig = new BotConfig
-            {
-                Token = "ABC",
-                SocketConfig = SocketConfig.GetDefault()
-            };
+            var storage = Unity.Resolve<IDataStorage>();        
             var connection = Unity.Resolve<Connection>();
-
-            Console.ReadKey();
+            await connection.ConnectAsync(new BotConfig
+            {
+                Token = storage.RestoreObject<string>("Config/BotToken")
+            });
         }
     }
 }
