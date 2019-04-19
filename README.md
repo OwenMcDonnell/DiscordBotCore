@@ -3,7 +3,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/077f7b27413d4464a3a1bb8f69a91583)](https://www.codacy.com/app/GHOSCHT/DiscordBotCore?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=GHOSCHT/DiscordBotCore&amp;utm_campaign=Badge_Grade)
 [![Build status](https://ci.appveyor.com/api/projects/status/pgrr84r6519677k3?svg=true)](https://ci.appveyor.com/project/Philipp/discordbotcore)
 
-A Discord Bot made with help of the YouTube tutorial by @petrspelos
+A C# Discord Bot.
 
 ## Built With
 
