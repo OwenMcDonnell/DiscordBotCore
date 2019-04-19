@@ -4,14 +4,14 @@ using System;
 
 namespace DiscordBotCore
 {
-    internal class Program
+    internal static class Program
     {
         private static void Main(string[] args)
         {
             Unity.RegisterTypes();
             Console.WriteLine("I think we can put our differences behind us. For science. You monster.");
 
-            var discordBotConfig = new BotConfig()
+            var discordBotConfig = new BotConfig
             {
                 Token = "ABC",
                 SocketConfig = SocketConfig.GetDefault()
