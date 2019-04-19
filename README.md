@@ -6,8 +6,8 @@ A Discord Bot made with help of the YouTube tutorial by @petrspelos
 
 ## Built With
 
-*  [Discord.Net](https://github.com/discord-net/Discord.Net) - Discord API wrapper
-*  [Microsoft Unity](https://www.microsoft.com/en-us/download/details.aspx?id=38788) - Dependency Management
+  *  [Discord.Net](https://github.com/discord-net/Discord.Net) - Discord API wrapper
+  *  [Microsoft Unity](https://www.microsoft.com/en-us/download/details.aspx?id=38788) - Dependency Management
 
 ## License
 
