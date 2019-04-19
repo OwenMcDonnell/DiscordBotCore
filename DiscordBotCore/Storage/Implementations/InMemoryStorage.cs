@@ -11,6 +11,7 @@ namespace DiscordBotCore.Storage.Implementations
         {
             if (_dictionary.ContainsKey(key))
             {
+                _dictionary[key] = obj;
                 return;
             }
 
