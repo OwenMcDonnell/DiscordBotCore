@@ -2,10 +2,10 @@
 
 namespace DiscordBotCore.xUnit.Tests
 {
-    public class UtilityTests
+    public static class UtilityTests
     {
         [Fact]
-        public void MyFirstTest()
+        public static void MyFirstTest()
         {
             const int expected = 5;
 
