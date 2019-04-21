@@ -3,7 +3,7 @@ using Xunit;
 
 namespace DiscordBotCore.xUnit.Tests
 {
-    public class LoggerTests
+    public static class LoggerTests
     {
         [Fact]
         public static void BasickLoggerTest()

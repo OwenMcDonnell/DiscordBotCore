@@ -5,7 +5,7 @@ using Xunit;
 
 namespace DiscordBotCore.xUnit.Tests
 {
-    public class SocketConfigTests
+    public static class SocketConfigTests
     {
         [Fact]
         public static void ConfigGetDefaultTest()
