@@ -14,7 +14,7 @@ namespace DiscordBotCore.xUnit.Tests
             Assert.ThrowsAsync<HttpException>(() => AttemptWrongConnect());
         }
 
-        private async Task AttemptWrongConnect()
+        private static async Task AttemptWrongConnect()
         {
             var conn = Unity.Resolve<Connection>();
 

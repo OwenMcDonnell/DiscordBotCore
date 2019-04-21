@@ -8,7 +8,7 @@ namespace DiscordBotCore.xUnit.Tests
     public class DataStorageTests
     {
         [Fact]
-        public void StorageDefaultsToJson()
+        public static void StorageDefaultsToJson()
         {
             var storage = Unity.Resolve<IDataStorage>();
 
@@ -21,7 +21,7 @@ namespace DiscordBotCore.xUnit.Tests
         }
 
         [Fact]
-        public void InMemoryStorageTest()
+        public static void InMemoryStorageTest()
         {
             const string expected = "I'm a unit test!";
             const string expectedKey = "TEST";

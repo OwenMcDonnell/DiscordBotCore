@@ -8,7 +8,7 @@ namespace DiscordBotCore.xUnit.Tests
     public class SocketConfigTests
     {
         [Fact]
-        public void ConfigGetDefaultTest()
+        public static void ConfigGetDefaultTest()
         {
             const LogSeverity expected = LogSeverity.Verbose;
 
@@ -18,7 +18,7 @@ namespace DiscordBotCore.xUnit.Tests
         }
 
         [Fact]
-        public void ConfigGetNewTest()
+        public static void ConfigGetNewTest()
         {
             var actual = SocketConfig.GetNew();
 
