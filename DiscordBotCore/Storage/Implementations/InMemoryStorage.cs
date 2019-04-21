@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DiscordBotCore.Storage.Implementations
 {
-    internal class InMemoryStorage : IDataStorage
+    public class InMemoryStorage : IDataStorage
     {
         private readonly Dictionary<string, object> _dictionary = new Dictionary<string, object>();
 

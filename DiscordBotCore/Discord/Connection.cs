@@ -16,13 +16,13 @@ namespace DiscordBotCore.Discord
             _client = client;
         }
 
-        internal async Task ConnectAsync(BotConfig config)
+        public async Task ConnectAsync(BotConfig config)
         {
             _client.Log += _logger.Log;
+
             await _client.LoginAsync(TokenType.Bot, config.Token);
             await _client.StartAsync();
-            await Task.Delay(-1).ConfigureAwait(false);
-            
+            await Task.Delay(1000);        
         }
     }
 }
