@@ -6,7 +6,7 @@ namespace DiscordBotCore.xUnit.Tests
     public static class LoggerTests
     {
         [Fact]
-        public static void BasickLoggerTest()
+        public static void BasicLoggerTest()
         {
             var logger = Unity.Resolve<ILogger>();
 
