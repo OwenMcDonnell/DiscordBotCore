@@ -7,6 +7,7 @@ dotnet_csproj:
   version: '{version}'
   package_version: '{version}'
 build_script:
+  - dotnet restore
   - dotnet build -c Release
 test_script:
 - ps: .\test.ps1   
